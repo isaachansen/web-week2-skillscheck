@@ -1,0 +1,134 @@
+body {
+    min-height: 150vh;
+    margin: 0 auto;
+}
+
+header {
+    height: 80px;
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > div {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    color: white;
+    font-size: 50px;
+    position: relative;
+    right: 100px;
+    font-family: futura-pt-bold, sans-serif;
+    font-style: normal;
+    font-weight: 550;
+}
+
+header ul {
+    display: flex;
+    position: relative;
+    left: 550px;
+}
+
+header ul li {
+    margin: 0 10px;
+    list-style: none;
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+header a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.top-heading {
+    background-color: rgb(0, 0, 0);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+} 
+
+ .top-heading > div {
+    color: rgb(255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 80px;
+    font-family: futura-pt-bold, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+
+.content {
+    background: white;
+    height: 53vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.content > #box-1, #box-2, #box-3 {
+    width: 300px;
+    height: 300px;
+    background-color: turquoise;
+    border-radius: 25px;
+    margin: 60px;
+    flex-direction: row;
+}
+
+.container {
+    background: white;
+    height: 53vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.container > #container-1, #container-2 {
+    width: 600px;
+    height: 300px;
+    position: relative;
+    background-color: orange;
+    flex-direction: row;
+    margin: 60px;
+
+}
+
+.items {
+    background: white;
+    height: 53vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.items > img {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 60px;
+    position: relative;
+    top: 25px;
+    right: 20px;
+}
+
+.items > p {
+    margin: 60px;
+    position: relative;
+    top: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    right: 10px;
+    font-size: 20px;
+}
